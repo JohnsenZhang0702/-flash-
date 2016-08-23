@@ -119,6 +119,7 @@ package webinfoutils
 					pageUrl = "noUrl";
 				}
 			}
+			pageUrl = pageUrl.split("?")[0];
 			return pageUrl;
 		}
 		
